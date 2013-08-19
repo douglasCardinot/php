@@ -68,7 +68,6 @@ class Email{
 		if(PATH_SEPARATOR == ";")
 			$this->lineBreak = "\r\n"; //If Windows
 		else $this->lineBreak = "\n"; //If not Windows
-		
 	}
 	
 	/**
